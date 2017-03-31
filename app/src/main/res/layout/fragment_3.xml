@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相对布局："
+        android:id="@+id/frag03_tv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名："
+        android:id="@+id/frag03_tv2"
+        android:layout_below="@+id/frag03_tv1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frag03_tv2"
+        android:id="@+id/frag03_et"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:id="@+id/frag03_btn_ok"
+        android:layout_below="@+id/frag03_et"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/frag03_btn_cancel"
+        android:layout_below="@+id/frag03_et"
+        android:layout_marginLeft="300dp"/>
+</RelativeLayout>
